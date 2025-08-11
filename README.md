@@ -9,10 +9,15 @@ Project is in development.
 
 #### TODO:
 -> fastapi
+
 -> interface (html css)
+
 -> unittest all standalone elements
+
 -> general unittest
+
 -> cpp trie structure
+
 -> KNN algorithm
 
 #### How it works?
