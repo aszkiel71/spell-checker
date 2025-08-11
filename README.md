@@ -10,15 +10,21 @@ Project is in development.
 #### TODO:
 -> fastapi
 -> interface (html css)
--> unittest
+-> unittest all standalone elements
+-> general unittest
 -> cpp trie structure
 -> KNN algorithm
+
+#### How it works?
+We use Trie to containerisation words.
+Each node in Trie can suggest best matched word.
+Data set is provided from (???).
 
 #### Tech stack:
 python, cpp, fastapi
 
 #### Authors:
-@aszkiel71
+[Wojtek Aszkielowicz](https://github.com/aszkiel71)
 
 #### License:
 project is based on MIT license
