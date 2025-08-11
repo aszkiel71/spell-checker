@@ -18,7 +18,7 @@ Project is in development.
 python, cpp, fastapi
 
 #### Authors:
-[@aszkiel71](github.com/aszkiel71)
+@aszkiel71
 
 #### License:
 project is based on MIT license
