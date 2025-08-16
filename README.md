@@ -29,7 +29,7 @@ g++ ./cpp-service/trie_service.cpp ./cpp-service/trie.cpp -o ./cpp-service/trie_
 cd node-orchestrator
 ```
 
-### To translate sentences from Command Line:
+### To fix sentences from Command Line:
 ```bash
 node sc.js "polskaa konstytucje policjak"
 ```
@@ -39,7 +39,7 @@ node sc.js "polskaa konstytucje policjak"
 node sc.js "polskaa konstytucje policjak" > output.txt
 ```
 
-### To translate file:
+### To fix file:
 ```bash
 node sc.js input.txt
 ```
@@ -68,9 +68,9 @@ Then you can use:
    - If does not exist → we find all words with prefix.
 3. Prefix length depends on length of word.
 4. Then SC.js asks spell_corrector.py for best matched word from provided words and returns it.
-5. We can translate whole sentences.
+5. We can fix whole sentences.
 6. We do not initialize dictionary for each word - we do it at the start using Daemon.
-7. We translate sentence word by word.
+7. We fix sentence word by word.
 
 ## Worktime:
 Approximately:
