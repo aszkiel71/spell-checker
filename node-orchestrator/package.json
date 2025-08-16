@@ -1,0 +1,16 @@
+{
+  "name": "polish-spell-checker",
+  "version": "1.0.0",
+  "description": "Multi-language spell checker with C++ Trie and Python",
+  "main": "sc.js",
+  "scripts": {
+    "start": "node sc.js",
+    "test": "node sc.js \"polska kontytjucja\""
+  },
+  "keywords": ["spell-checker", "polish", "trie"],
+  "author": "aszkiel71",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
